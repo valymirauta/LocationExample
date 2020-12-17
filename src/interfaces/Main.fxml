@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.Main">
+   <children>
+      <Pane layoutX="20.0" layoutY="35.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@../application/application.css" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="35.0">
+         <styleClass>
+            <String fx:value="pane" />
+            <String fx:value="parent" />
+         </styleClass>
+         <children>
+            <VBox layoutX="173.0" layoutY="-21.0" prefHeight="375.0" prefWidth="186.0" styleClass="white-pane" />
+            <Label layoutX="370.0" layoutY="79.0" text="Sunteti inregistrat?">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="370.0" layoutY="153.0" styleClass="trans-btn-white-border" stylesheets="@../application/application.css" text="Conectare" />
+            <Label layoutX="21.0" layoutY="79.0" text="Nu sunteti inregistrat?">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="21.0" layoutY="153.0" styleClass="trans-btn-white-border" stylesheets="@../application/application.css" text="Inregistrare" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="itextpdf-5.4.3">
+    <CLASSES>
+      <root url="jar://G:/JAVA Invatam/JAVA Jar/itextpdf-5.4.3.jar!/" />
+      <root url="jar://G:/JAVA Invatam/JAVA Jar/javax.mail-1.4.5.jar!/" />
+      <root url="jar://G:/JAVA Invatam/JAVA Jar/mail-5.1.2.jar!/" />
+      <root url="jar://G:/JAVA Invatam/JAVA Jar/com.mysql.jdbc_5.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://G:/JAVA Invatam/JAVA Jar/itextpdf-5.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
